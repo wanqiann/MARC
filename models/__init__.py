@@ -1,0 +1,1 @@
+"""MARC model components."""

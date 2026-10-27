@@ -1,0 +1,1021 @@
+{
+  "livebirth": {
+    "modality": "reproductive",
+    "role": "condition",
+    "is_model_input": false,
+    "is_impute_target": false,
+    "is_continuous": false,
+    "feature_type": "ordinal",
+    "loss_weight": 1.0,
+    "eval_group": "condition",
+    "num_classes": 5
+  },
+  "age": {
+    "modality": "covariate",
+    "role": "condition",
+    "is_model_input": true,
+    "is_impute_target": false,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "condition"
+  },
+  "BMI": {
+    "modality": "covariate",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "covariate"
+  },
+  "income": {
+    "modality": "covariate",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "covariate"
+  },
+  "education": {
+    "modality": "covariate",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "covariate"
+  },
+  "fshb": {
+    "modality": "hormone",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "hormone"
+  },
+  "prl": {
+    "modality": "hormone",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "hormone"
+  },
+  "ptgds": {
+    "modality": "hormone",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "hormone"
+  },
+  "lhb": {
+    "modality": "hormone",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "hormone"
+  },
+  "tshb": {
+    "modality": "hormone",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "hormone"
+  },
+  "esr1": {
+    "modality": "hormone",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "hormone"
+  },
+  "Anxiety-Disorder": {
+    "modality": "psychiatric",
+    "role": "excluded",
+    "is_model_input": false,
+    "is_impute_target": false,
+    "is_continuous": false,
+    "feature_type": "binary",
+    "num_classes": 2,
+    "loss_weight": 1.0,
+    "eval_group": "psychiatric"
+  },
+  "Bipolar-Disorder": {
+    "modality": "psychiatric",
+    "role": "excluded",
+    "is_model_input": false,
+    "is_impute_target": false,
+    "is_continuous": false,
+    "feature_type": "binary",
+    "num_classes": 2,
+    "loss_weight": 1.0,
+    "eval_group": "psychiatric"
+  },
+  "Depression": {
+    "modality": "psychiatric",
+    "role": "excluded",
+    "is_model_input": false,
+    "is_impute_target": false,
+    "is_continuous": false,
+    "feature_type": "binary",
+    "num_classes": 2,
+    "loss_weight": 1.0,
+    "eval_group": "psychiatric"
+  },
+  "Eating-Disorder": {
+    "modality": "psychiatric",
+    "role": "excluded",
+    "is_model_input": false,
+    "is_impute_target": false,
+    "is_continuous": false,
+    "feature_type": "binary",
+    "num_classes": 2,
+    "loss_weight": 1.0,
+    "eval_group": "psychiatric"
+  },
+  "Obsessive-Compulsive-Disorder": {
+    "modality": "psychiatric",
+    "role": "excluded",
+    "is_model_input": false,
+    "is_impute_target": false,
+    "is_continuous": false,
+    "feature_type": "binary",
+    "num_classes": 2,
+    "loss_weight": 1.0,
+    "eval_group": "psychiatric"
+  },
+  "Reaction-To-Severe-Stress-And-Adjustment-Disorders": {
+    "modality": "psychiatric",
+    "role": "excluded",
+    "is_model_input": false,
+    "is_impute_target": false,
+    "is_continuous": false,
+    "feature_type": "binary",
+    "num_classes": 2,
+    "loss_weight": 1.0,
+    "eval_group": "psychiatric"
+  },
+  "Schizophrenia": {
+    "modality": "psychiatric",
+    "role": "excluded",
+    "is_model_input": false,
+    "is_impute_target": false,
+    "is_continuous": false,
+    "feature_type": "binary",
+    "num_classes": 2,
+    "loss_weight": 1.0,
+    "eval_group": "psychiatric"
+  },
+  "pain": {
+    "modality": "label",
+    "role": "excluded",
+    "is_model_input": false,
+    "is_impute_target": false,
+    "is_continuous": false,
+    "feature_type": "binary",
+    "num_classes": 2,
+    "loss_weight": 1.0,
+    "eval_group": "label"
+  },
+  "anterior_corona_radiata_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "anterior_corona_radiata_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "anterior_corona_radiata_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "anterior_limb_of_internal_capsule_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "anterior_limb_of_internal_capsule_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "anterior_limb_of_internal_capsule_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "anterior_limb_of_internal_capsule_pc4": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "body_of_corpus_callosum_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "body_of_corpus_callosum_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cerebral_peduncle_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cerebral_peduncle_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cerebral_peduncle_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cingulum_cingulate_gyrus_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cingulum_cingulate_gyrus_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cingulum_cingulate_gyrus_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cingulum_hippocampus_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cingulum_hippocampus_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cingulum_hippocampus_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "cingulum_hippocampus_pc4": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "corticospinal_tract_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "corticospinal_tract_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "corticospinal_tract_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "corticospinal_tract_pc4": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "external_capsule_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "external_capsule_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "external_capsule_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "fornix_cresplusstria_terminalis_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "fornix_cresplusstria_terminalis_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "fornix_cresplusstria_terminalis_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "fornix_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "genu_of_corpus_callosum_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "genu_of_corpus_callosum_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "inferior_cerebellar_peduncle_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "inferior_cerebellar_peduncle_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "inferior_cerebellar_peduncle_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "medial_lemniscus_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "medial_lemniscus_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "medial_lemniscus_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "middle_cerebellar_peduncle_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "middle_cerebellar_peduncle_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "middle_cerebellar_peduncle_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "pontine_crossing_tract_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "pontine_crossing_tract_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "pontine_crossing_tract_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "posterior_corona_radiata_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "posterior_corona_radiata_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "posterior_corona_radiata_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "posterior_limb_of_internal_capsule_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "posterior_limb_of_internal_capsule_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "posterior_limb_of_internal_capsule_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "posterior_thalamic_radiation_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "posterior_thalamic_radiation_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "posterior_thalamic_radiation_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "retrolenticular_part_of_internal_capsule_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "retrolenticular_part_of_internal_capsule_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "retrolenticular_part_of_internal_capsule_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "retrolenticular_part_of_internal_capsule_pc4": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "sagittal_stratum_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "sagittal_stratum_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "sagittal_stratum_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "sagittal_stratum_pc4": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "splenium_of_corpus_callosum_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "splenium_of_corpus_callosum_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_cerebellar_peduncle_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_cerebellar_peduncle_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_cerebellar_peduncle_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_corona_radiata_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_corona_radiata_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_corona_radiata_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_fronto-occipital_fasciculus_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_fronto-occipital_fasciculus_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_fronto-occipital_fasciculus_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_longitudinal_fasciculus_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_longitudinal_fasciculus_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "superior_longitudinal_fasciculus_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "tapetum_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "tapetum_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "tapetum_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "uncinate_fasciculus_pc1": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "uncinate_fasciculus_pc2": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "uncinate_fasciculus_pc3": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  },
+  "uncinate_fasciculus_pc4": {
+    "modality": "dmri",
+    "role": "impute_target",
+    "is_model_input": true,
+    "is_impute_target": true,
+    "is_continuous": true,
+    "feature_type": "continuous",
+    "loss_weight": 1.0,
+    "eval_group": "dmri"
+  }
+}
